@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    width: 100%;
+    height: 100%;
+  }
+  body{
+    min-height: 100%;
+    background-color: hsl(185, 75%, 39%);  
+    background-image: url(/images/bg-pattern-top.svg),url(/images/bg-pattern-bottom.svg);
+    background-size: 1200px,1200px;
+    background-position:-138% 141%, 231% -53%;
+    background-repeat:no-repeat,no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .font-primary{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  .font-sec{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 59%);
+  }
+  .container{
+    background-color: white;
+    height: 60vh;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+  .upperband{
+    background: url(/images/bg-pattern-card.svg);
+    height: 35%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+  }
+  .image{
+    position: absolute;
+    width: 7.5%;
+    height: 15%;
+    top: 35%;
+    left: 46%;
+    border: 6px solid white;
+    border-radius: 50%;
+  }
+  .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 47%;
+  }
+  .middleband{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .middleband{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .middle-h{
+    margin-top: 2.4em;
+  }
+  .middleband h2 span{
+    font-size: 1.3rem;
+    color: hsl(0, 0%, 59%);
+    padding-left: 0.4em;
+  }
+  .middle-p{
+    padding-top: 1em;
+  }
+  .lower-grid{
+    width: 100%;
+    margin: 1em 0em;
+    grid-row-gap: 0.3em;
+    margin-top: 1.4em;
+    display: grid;
+    grid-template-areas: 
+    'item1 item2 item3'
+    'item4 item5 item6';
+  }
+  .lower-grid p{
+    text-align: center;
+  }
+  
+  #item1{
+    grid-area: item1;
+    
+  }
+  #item2{
+    grid-area: item2;
+    
+  }
+  #item3{
+    grid-area: item3;
+    
+  }
+  #item4{
+    grid-area: item4;
+    
+  }
+  #item5{
+    grid-area: item5;
+    
+  }
+  #item6{
+    grid-area: item6;
+  }
+  

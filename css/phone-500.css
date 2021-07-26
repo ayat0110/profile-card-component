@@ -1,0 +1,21 @@
+body{
+    background-size: 1000px, 1000px;
+    background-position:125% 133%, -11% -73%;
+  }
+  
+  /* CONTAINER */
+  .container{
+    height: 75vh;
+    width: 80%;
+  }
+  /* IMAGE */
+  .image{
+    width: 30%;
+    height: 20%;
+    top: 31%;
+    left: 35%;
+    border-radius: 51%;
+  }
+  .image img{
+    border-radius: 51%;
+  }

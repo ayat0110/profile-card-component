@@ -1,0 +1,17 @@
+/* CONTAINER */
+.container{
+    height: 70vh;
+    width: 40%;
+  }
+  
+  /* IMAGE */
+  .image{
+    width: 12%;
+    height: 20%;
+    top: 31%;
+    left: 44%;
+    border-radius: 51%;
+  }
+  .image img{
+    border-radius: 51%;
+  }
